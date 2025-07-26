@@ -393,7 +393,7 @@ export default function Portfolio() {
                 {/* Design Image */}
                 <motion.div
                   className="relative w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] xl:max-w-[700px] aspect-[9/16] group cursor-pointer flex-shrink-0 mx-auto md:mx-0 overflow-visible"
-                  whileHover={{ scale: window.innerWidth > 768 ? 1.02 : 1 }}
+                  whileHover={{ scale: 1.02 }}
                   transition={{ duration: 0.4, ease: "easeOut" }}
                   layoutId={`design-${design.id}`}
                   style={{
